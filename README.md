@@ -1,6 +1,6 @@
-# 快递路由账本
+# 教师健康随访服务
 
-Java 服务和 PostgreSQL 共同组成开发环境。HTTP 进程已提供健康检查，扫描事件、账本和查询模块位于 `src/main/java` 下扩展。
+Spring Boot 服务和 PostgreSQL 共同组成开发环境。HTTP 进程已提供健康检查，检查记录、提醒和审计模块位于 `src/main/java` 下扩展。
 
 ```bash
 docker compose up --build -d

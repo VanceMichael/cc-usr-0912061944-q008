@@ -4,6 +4,6 @@ COPY pom.xml ./
 COPY src ./src
 RUN mvn -q package
 FROM eclipse-temurin:21-jre-alpine
-COPY --from=build /src/target/route-ledger-0.1.0.jar /app.jar
+COPY --from=build /src/target/teacher-followup-0.1.0.jar /app.jar
 EXPOSE 8080
 ENTRYPOINT ["java", "-jar", "/app.jar"]

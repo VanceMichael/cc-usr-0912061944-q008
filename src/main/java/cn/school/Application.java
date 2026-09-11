@@ -1,4 +1,4 @@
-package cn.logistics;
+package cn.school;
 
 import java.util.Map;
 import org.springframework.boot.SpringApplication;
